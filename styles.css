@@ -15,21 +15,21 @@
 }
 
 body {
-  background-image: url(./img/aqua-wolf.png);
+  color: #ff7b00;
+  background-image: url(./img/);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
   font-family: "Open Sauce";
-  color: #fff;
 }
 
 .container {
   display: flex;
   width: 85%;
   height: 90vh;
-  background-color: transparent;
+  background-color: azure;
   backdrop-filter: blur(5px) brightness(120%);
   margin: auto;
   gap: 1em;
@@ -47,13 +47,13 @@ h1 {
   font-family: "Open Sauce Semi-bold";
   font-size: 10vmin;
   width: 0.0625rem;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   line-height: 1.05;
 }
 
 p {
   margin-top: 1.5em;
-  font-size: 1.5vmax;
+  font-size: 1.6vmax;
   line-height: 1.5;
   width: 35vw;
 }
@@ -69,18 +69,21 @@ section {
   margin-top: 4em;
   width: 15%;
   height: 3vh;
-  color: #fff;
+  color: #ff7b00;
 }
 
 hr {
   width: 95%;
-  border: 0.5px solid #fff;
+  border: 0.5px solid #ff7b00;
 }
 
 .bio {
   line-height: 2.5;
   text-decoration: none;
-  color: #fff;
+  color: #ff7b00;
   font-size: 1.5vmax;
-  /* color: #000; */
+}
+
+.icons.md.hydrated {
+  margin-top: 1.2em;
 }
