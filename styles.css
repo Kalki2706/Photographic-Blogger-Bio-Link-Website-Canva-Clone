@@ -15,8 +15,8 @@
 }
 
 body {
-  color: #ff7b00;
-  background-image: url(./img/);
+  /* color: #ff7b00; */
+  background-image: url(./img/wolfgang-hasselmann--onyyYPmRR0-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,9 +28,9 @@ body {
 .container {
   display: flex;
   width: 85%;
-  height: 75vh;
-  background-color: azure;
-  backdrop-filter: blur(5px) brightness(120%);
+  height: 40vmax;
+  background-color: transparent;
+  backdrop-filter: blur(4px) brightness(140%);
   margin: auto;
   gap: 1em;
   position: absolute;
@@ -69,7 +69,7 @@ section {
   margin-top: 4em;
   width: 15%;
   height: 3vh;
-  color: #ff7b00;
+  color: #000;
 }
 
 hr {
@@ -80,7 +80,7 @@ hr {
 .bio {
   line-height: 2.5;
   text-decoration: none;
-  color: #ff7b00;
+  color: #000;
   font-size: 1.5vmax;
 }
 
