@@ -15,8 +15,8 @@
 }
 
 body {
-  /* color: #ff7b00; */
-  background-image: url(./img/wolfgang-hasselmann--onyyYPmRR0-unsplash.jpg);
+  color: #000;
+  background-image: url(./img/Green\ and\ White\ Photographic\ Blogger\ Bio-Link\ Website.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,59 +30,51 @@ body {
   width: 85%;
   height: 42vmax;
   background-color: transparent;
-  backdrop-filter: blur(4px) brightness(145%);
-  margin: auto;
+  backdrop-filter: blur(12px) brightness(180%);
   gap: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
   flex-wrap: wrap;
 }
 
 h1 {
   font-family: "Open Sauce Semi-bold";
-  font-size: 10vmin;
+  font-size: 8.5vmin;
   width: 0.0625rem;
   line-height: 1.05;
 }
 
 p {
-  margin-top: 1.5em;
+  margin-top: 0.5em;
   font-size: 1.6vmax;
-  line-height: 1.5;
   width: 35vw;
 }
 
 .info,
 section {
-  margin: 0 auto;
-  width: inherit;
   width: 45%;
 }
 
 .icons {
-  margin-top: 4em;
   width: 15%;
   height: 4vh;
-  color: #000;
+  color: #ffffff;
 }
 
 hr {
   width: 95%;
-  border: 0.5px solid #000;
+  border: 1px solid #ffffff;
 }
 
 .bio {
   line-height: 2.5;
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   font-size: 1.5vmax;
 }
 
 .icons.md.hydrated {
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
