@@ -1,1 +1,1 @@
-# Wolf Spirit Bio Link 
+# Green and White Photographic Blogger Bio-Link Website Clone
