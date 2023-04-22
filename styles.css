@@ -30,13 +30,14 @@ body {
   width: 85%;
   height: 42vmax;
   background-color: transparent;
-  backdrop-filter: blur(12px) brightness(180%);
+  backdrop-filter: blur(12px) brightness(220%);
   gap: 1em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -69,7 +70,7 @@ hr {
 }
 
 .bio {
-  line-height: 2.5;
+  line-height: 3;
   text-decoration: none;
   color: #000000;
   font-size: 1.5vmax;
