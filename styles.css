@@ -58,12 +58,6 @@ section {
   width: 45%;
 }
 
-.icons {
-  width: 15%;
-  height: 4vh;
-  color: #000;
-}
-
 hr {
   width: 95%;
   border: 1px solid #000;
@@ -72,10 +66,34 @@ hr {
 .bio {
   line-height: 3;
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-size: 1.5vmax;
+  transition: color 0.2s;
+}
+
+.bio:hover {
+  color: #4267b2;
 }
 
 .icons.md.hydrated {
   margin-top: 2em;
+  height: 10vmin;
+  width: 2.5vmax;
+}
+
+.media-links {
+  color: #000;
+  transition: color 0.2s;
+}
+
+.ig:hover {
+  color: #e1306c;
+}
+
+.fb:hover {
+  color: #4267b2;
+}
+
+.tweet:hover {
+  color: #1da1f2;
 }
