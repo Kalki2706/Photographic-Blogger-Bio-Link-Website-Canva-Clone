@@ -5,15 +5,7 @@
 }
 
 :root {
-  --color: #fff;
-}
-
-h1,
-p,
-hr,
-.bio,
-.media-links {
-  color: var(--color);
+  --white: #fff;
 }
 
 @font-face {
@@ -51,6 +43,14 @@ body {
   align-items: center;
 }
 
+h1,
+p,
+hr,
+.bio,
+.media-links {
+  color: var(--white);
+}
+
 h1 {
   font-family: "Open Sauce Semi-bold";
   font-size: 8.5vmin;
@@ -82,7 +82,7 @@ hr {
 }
 
 .bio:hover {
-  color: #4267b2;
+  color: #00ff00;
 }
 
 .icons.md.hydrated {
@@ -110,4 +110,8 @@ hr {
 
 .tweet:hover {
   color: #1da1f2;
+}
+
+::selection {
+  color: #00ffff;
 }
